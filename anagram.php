@@ -18,7 +18,6 @@ function is_anagram($string_1, $string_2)
     else
         return 'NO';
 }
-
 fscanf(STDIN, "%s", $a);
 fscanf(STDIN, "%s", $b);
 echo is_anagram($a, $b);
